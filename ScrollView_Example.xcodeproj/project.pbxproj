@@ -23,14 +23,14 @@
 		F0A201A013AF22CC00515B4A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F0A201A213AF22CC00515B4A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F0A201A413AF22CC00515B4A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		F0A201A813AF22CC00515B4A /* ScrollView_Example-Info.plist */ = {isa = PBXFileReference; path = "ScrollView_Example-Info.plist"; sourceTree = "<group>"; };
+		F0A201A813AF22CC00515B4A /* ScrollView_Example-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ScrollView_Example-Info.plist"; sourceTree = "<group>"; };
 		F0A201AA13AF22CC00515B4A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		F0A201AC13AF22CC00515B4A /* ScrollView_Example-Prefix.pch */ = {isa = PBXFileReference; path = "ScrollView_Example-Prefix.pch"; sourceTree = "<group>"; };
+		F0A201AC13AF22CC00515B4A /* ScrollView_Example-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ScrollView_Example-Prefix.pch"; sourceTree = "<group>"; };
 		F0A201AD13AF22CC00515B4A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F0A201AF13AF22CC00515B4A /* ScrollView_ExampleAppDelegate.h */ = {isa = PBXFileReference; path = ScrollView_ExampleAppDelegate.h; sourceTree = "<group>"; };
+		F0A201AF13AF22CC00515B4A /* ScrollView_ExampleAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScrollView_ExampleAppDelegate.h; sourceTree = "<group>"; };
 		F0A201B013AF22CC00515B4A /* ScrollView_ExampleAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrollView_ExampleAppDelegate.m; sourceTree = "<group>"; };
 		F0A201B313AF22CC00515B4A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		F0A201B513AF22CC00515B4A /* ScrollView_ExampleViewController.h */ = {isa = PBXFileReference; path = ScrollView_ExampleViewController.h; sourceTree = "<group>"; };
+		F0A201B513AF22CC00515B4A /* ScrollView_ExampleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScrollView_ExampleViewController.h; sourceTree = "<group>"; };
 		F0A201B613AF22CC00515B4A /* ScrollView_ExampleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrollView_ExampleViewController.m; sourceTree = "<group>"; };
 		F0A201B913AF22CC00515B4A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ScrollView_ExampleViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -81,10 +81,10 @@
 			children = (
 				F0A201AF13AF22CC00515B4A /* ScrollView_ExampleAppDelegate.h */,
 				F0A201B013AF22CC00515B4A /* ScrollView_ExampleAppDelegate.m */,
-				F0A201B213AF22CC00515B4A /* MainWindow.xib */,
 				F0A201B513AF22CC00515B4A /* ScrollView_ExampleViewController.h */,
 				F0A201B613AF22CC00515B4A /* ScrollView_ExampleViewController.m */,
 				F0A201B813AF22CC00515B4A /* ScrollView_ExampleViewController.xib */,
+				F0A201B213AF22CC00515B4A /* MainWindow.xib */,
 				F0A201A713AF22CC00515B4A /* Supporting Files */,
 			);
 			path = ScrollView_Example;
@@ -279,6 +279,7 @@
 				F0A201BF13AF22CC00515B4A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

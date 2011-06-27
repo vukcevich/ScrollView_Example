@@ -2,7 +2,7 @@
 //  ScrollView_ExampleViewController.m
 //  ScrollView_Example
 //
-//  Created by Amrita Gosh on 20/06/11.
+//  Created by Chakra on 20/06/11.
 //  Copyright 2011 Chakra Interactive Pvt Ltd. All rights reserved.
 //
 
@@ -17,21 +17,31 @@
 
 - (void)didReceiveMemoryWarning
 {
-    // Releases the view if it doesn't have a superview.
     [super didReceiveMemoryWarning];
     
-    // Release any cached data, images, etc that aren't in use.
+    
 }
 
 #pragma mark - View lifecycle
 
-/*
+
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad
 {
+   
     [super viewDidLoad];
+    
+    scrollView.frame = CGRectMake(0, 0, 320, 460);
+   [scrollView setContentSize:CGSizeMake(320, 678)];
+    
 }
-*/
+
+
+- (BOOL)textFieldShouldReturn:(UITextField *)textField{
+	[textField resignFirstResponder];
+	return YES;
+}
+
 
 - (void)viewDidUnload
 {
